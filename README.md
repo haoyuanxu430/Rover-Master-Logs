@@ -20,3 +20,28 @@ Purpose of this repo is to keep weekly logs and design drafts.
 
 ## Videos    
 [Pre-Alpha Build](https://youtu.be/6k8LeupdFZE)   
+
+## Milestone Overview
+
+### Work Completed
+The following tasks were completed as part of this milestone:
+
+- **Object Detection Implementation**:
+  - Developed and integrated an object detection module using YOLOv11.
+  - Created a custom ROS node for real-time object detection on the robot.
+  - Published detected object data using ROS topics for seamless communication.
+ 
+- **Depth Estimation Testing with Marigold**:
+  - Tested the Marigold depth estimation model using pictures of varying quality and resolution.
+  - Measured the model's processing time for each image to evaluate efficiency.
+  - Observed the model's performance consistency across different image types.
+
+
+## Known Bugs
+
+### Bug Description
+The following bug is a known issue at the end of this milestone:
+
+| **Bug ID** | **Description**                              | **Impact**                                           | **Planned Fix**                      | **Status**   |
+|------------|----------------------------------------------|-----------------------------------------------------|--------------------------------------|--------------|
+| 001        | Incompatibility between ROS version and Nav 2 | Limits functionality when running specific tasks   | Upgrade ROS version or refactor the code to ensure compatibility | Open         |
