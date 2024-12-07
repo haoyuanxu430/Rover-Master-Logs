@@ -45,3 +45,21 @@ The following bug is a known issue at the end of this milestone:
 | **Bug ID** | **Description**                              | **Impact**                                           | **Planned Fix**                      | **Status**   |
 |------------|----------------------------------------------|-----------------------------------------------------|--------------------------------------|--------------|
 | 001        | Incompatibility between ROS version and Nav 2 | Limits functionality when running specific tasks   | Upgrade ROS version or refactor the code to ensure compatibility | Open         |
+
+# Run Object Detection in ROS2 Workspace
+
+This project requires access to a private remote host. Since the host is private, the steps to SSH into it and run the project are specific to the environment and cannot be replicated externally.
+
+If you have access to the remote host:
+
+1. **SSH into the Host**  
+   ```bash
+   ssh <username>@<remote_host>
+2. **Navigate to ROS2 Workspace**
+   `cd /home/robotuser/ros2_ws`
+3. **Run the Build Shell**
+   `make shell`
+4. **Lauch Camera**
+   `launch camera`
+   the frame with bounding boxes will be saved to `ROS2WS/var`
+   
