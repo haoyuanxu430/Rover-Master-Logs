@@ -53,8 +53,7 @@ This project requires access to a private remote host. Since the host is private
 If you have access to the remote host:
 
 1. **SSH into the Host**  
-   ```bash
-   ssh <username>@<remote_host>
+   e.g. `ssh <username>@<remote_host>`
 2. **Navigate to ROS2 Workspace**
    `cd /home/robotuser/ros2_ws`
 3. **Run the Build Shell**
