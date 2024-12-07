@@ -46,7 +46,7 @@ The following bug is a known issue at the end of this milestone:
 |------------|----------------------------------------------|-----------------------------------------------------|--------------------------------------|--------------|
 | 001        | Incompatibility between ROS version and Nav 2 | Limits functionality when running specific tasks   | Upgrade ROS version or refactor the code to ensure compatibility | Open         |
 
-# Run Object Detection in ROS2 Workspace
+## Run Object Detection in ROS2 Workspace
 
 This project requires access to a private remote host. Since the host is private, the steps to SSH into it and run the project are specific to the environment and cannot be replicated externally.
 
