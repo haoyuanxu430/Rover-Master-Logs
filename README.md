@@ -2,6 +2,22 @@
 The actual codes and PCB designs are maintained [here](https://github.com/Rover-Master).   
 Purpose of this repo is to keep weekly logs and design drafts.
 
+# Project Description
+## Robot Control System
+This project is a robot control system designed to provide users with an intuitive and interactive interface for controlling a robot and performing object detection tasks. The system includes the following key features:
+
+- Real-Time Feedback: A message box provides instant updates on robot commands and object search results.
+
+- Object Detection: Users can input the name of an object, and the system will search for it using YOLO-based object detection.
+
+- Live Video Streaming: A real-time video feed from the robot’s camera is displayed, with an option to toggle YOLO bounding boxes for better visualization.
+
+- Robot Control: Control buttons allow users to direct the robot’s movements (e.g., forward, backward, left, right, stop).
+
+- Improved Performance: The lagging issue from the alpha build was resolved by sending frame and YOLO data separately, ensuring smoother streaming.
+
+- User-Friendly Interface: The interface supports key press functionality and includes visually appealing features like highlighted buttons and dynamic feedback.
+
 ## Models
 ### Monocular Depth Estimation
 [Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation](https://github.com/prs-eth/Marigold?tab=readme-ov-file#marigold-repurposing-diffusion-based-image-generators-for-monocular-depth-estimation)
