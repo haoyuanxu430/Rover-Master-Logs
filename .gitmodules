@@ -1,0 +1,3 @@
+[submodule "ROS2WS"]
+	path = ROS2WS
+	url = https://github.com/Rover-Master/RoverMaster-ROS2.git
