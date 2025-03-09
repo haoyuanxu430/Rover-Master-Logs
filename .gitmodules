@@ -1,3 +1,6 @@
 [submodule "ROS2WS"]
 	path = ROS2WS
 	url = https://github.com/Rover-Master/RoverMaster-ROS2.git
+[submodule "omni-control"]
+	path = omni-control
+	url = https://github.com/XJXuan888/omni-control.git
